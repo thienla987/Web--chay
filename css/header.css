@@ -1,0 +1,329 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+/* SSECTION TOP-BAR */
+.top-bar{
+    padding: 0rem 0;
+    background-color:  #33b375;
+}
+
+.masthead{
+    padding: 0rem 0;
+}
+
+/* SOCIAL LIST */
+.top-bar__social-list{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+.top-bar__social-list>li{
+    margin-right: 1rem;
+}
+.top-bar__social-list>li>a{
+    position: relative;
+    color: white;
+    font-size: 0.9rem;
+    
+}
+
+/* LINKS */
+.top-bar__links{
+    margin-left: 6px;
+    font-size: 0.9rem;
+}
+
+
+.top-bar__links>a,
+.top-bar__links>span{
+    color: white;
+    margin-left: 31px;
+}
+
+/* Header____main */
+
+.masthead{
+    background-color: aliceblue;
+    
+}
+.header-main__medium{
+    list-style-type: none;
+    display: flex;
+    margin: 8px;
+    
+    
+}
+
+.header-main__medium>li>a{
+    color: #0a0a0a;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+/* Header logo */
+
+.header__logo__main{
+    position: absolute;
+    
+    left: 413px;
+    height: 69px;
+    background-size: 67%;
+}
+
+
+.hero{
+    width: 100%;
+    position: relative;
+}
+
+.hero__title{
+    width: 78%;
+    height: 582px;
+    margin-top: 10px;
+    margin-left: 429px;
+    background: url(https://thuanchay.vn/wp-content/uploads/2022/10/spices-lemon-slices-flat-lay_23-2148728156-1200x800.jpeg) ;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.hero__title__background{
+    position: absolute;
+    margin-left: 120px;
+    padding-top: 174px;
+    color: white;
+}
+/* ABOUT */
+
+.about__title{
+    width: 100%;
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 218px;
+
+}
+.about__content{
+    background-color: rgb(255,245,203);
+    height: 109%;
+    
+    margin-top: -73px;
+}
+.about__title--read{
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 38px;
+    width: 100%;
+}
+.about__title--read__two{
+    width: 100%;
+    margin-left: 23px;
+}
+.about__title--read__three{
+    width: 100%;
+    margin-left: 156px;
+}
+.about__title--read__for{
+    width: 100%;
+    margin-left: 32px;
+}
+.about__title--read__five{
+    width: 100%;
+    margin-top: -31px;
+    margin-left: 108px;
+}
+.about__button{
+    width: 12%;
+    margin-top: 7px;
+    margin-left: 300px;
+    color: #29b473;
+}
+/* Backgroud img */
+.about__background__img{
+    width: 100%;
+    height: 598px;
+    margin-left: -28px;
+    margin-top: -71px;
+    background: url(https://thuanchay.vn/wp-content/uploads/2022/10/tu-nhien-1200x800.jpeg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Backgroud test */
+.about__background--text{
+    position: relative;
+    display: flex;
+    margin-left: 74px;
+    margin-top: 56px;
+}
+
+.about__background--text-one{
+    padding-left: 42px;
+    font-weight: 400;
+    color: black;
+}
+
+.about__background--text-two{
+
+    padding-left: 42px;
+    font-weight: 400;
+    color: black;
+}
+
+.about__background--text-three{
+    padding-left: 42px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Face */
+.about__background--text-one--separate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid black;
+    width: 13px;
+    height: 94px;
+    top: 0;
+    right: 638px;
+	
+}
+.about__background--text-one--separate__three{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid black;
+    width: 13px;
+    height: 94px;
+    top: 0;
+    right: 433px;
+}
+
+.item__image>h1{
+    font-size: 20px;
+    margin-left: 359px;
+    font-weight: 400;
+}
+/* column  */
+
+.column__product{
+    width: 100%;
+    display: flex;
+}
+
+.column-5{
+    width: 100%;
+    left: 5px;
+    height: 30px;
+    background-image: url(https://thuanchay.vn/wp-content/uploads/2022/10/flat-lay-spices-ingredients_23-2148601143-300x300.jpeg.webp);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    margin-left: 228px;
+    padding-top: 155px;
+}
+
+
+.column-6{
+    width: 100%;
+    left: 5px;
+    height: 30px;
+    background-image: url(https://thuanchay.vn/wp-content/uploads/2022/10/red-blood-cells-flowing-through-artery_150973-120-300x300.jpeg.webp);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    margin-left: 228px;
+    padding-top: 155px;
+}
+
+.column-7{
+    width: 100%;
+    left: 5px;
+    height: 30px;
+    background-image: url(https://thuanchay.vn/wp-content/uploads/2022/10/holding-schematic-meal-plan-diet-with-various-healthy-products-background_194143-19-300x300.jpeg.webp);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    margin-left: 228px;
+    padding-top: 155px;
+}
+
+.column-8{
+    width: 100%;
+    left: 5px;
+    height: 30px;
+    background-image: url(https://thuanchay.vn/wp-content/uploads/2022/10/part-woman-body-hips-slender-toned-belly-covered-by-tender-silk-textile_353119-18-300x300.jpeg.webp);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    margin-left: 228px;
+    padding-top: 155px;
+}
+/* banner */
+.background__banner{
+    margin-top: 32px;
+    padding-top: 500px;
+    width: 100%;
+    height: 20px;
+    background-size: 65%;
+    background-image: url(https://thuanchay.vn/wp-content/uploads/2022/10/high-angle-vegetables-scaled.jpeg.webp);
+
+}
+
+.banner__title--hellthy{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 290px;
+}
+.banner__title--hellthy__one{
+    font-weight: 600;
+    margin-left: 240px;
+}
+button{
+    margin-left: 348px;
+    /* margin: 14px; */
+    padding: 10px;
+    background-color: #29b473;
+    color: white;
+}
+/* Logo footer */
+.footer{
+    margin-top: 12px;
+    padding: 144px;
+    background-color: #33b375;
+}
+
+.app-footer__logo{
+    height: 114px;
+    margin-top: -190px;
+    background-size: 71%;
+}
+
+.app-footer__logo-title>p{
+    color: white;
+}
+
+.app-footer-sign>h1{
+    color: white;
+    font-weight: 600;
+    margin-top: -141px;
+}
+.app-footer-sign>p{
+    color: white;
+    font-weight: 500;
+}
+.app-footer--connet>h1{
+    color: white;
+    font-weight: 700;
+    margin-top: -144px;
+}
